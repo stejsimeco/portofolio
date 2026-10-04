@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Stejsi Meco | Psychology & HR</title>
+
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #faf7f5;
+  color: #292525;
+  line-height: 1.6;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: rgba(250,247,245,0.95);
+  padding: 18px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee5e1;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #292525;
+  text-decoration: none;
+  margin-left: 18px;
+  font-size: 14px;
+}
+
+.hero {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px 10%;
+}
+
+.small {
+  color: #9a7770;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-size: clamp(45px, 9vw, 90px);
+  line-height: 1;
+  margin-bottom: 25px;
+}
+
+.hero h2 {
+  font-weight: normal;
+  color: #765d58;
+  font-size: 22px;
+  max-width: 650px;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 30px;
+  background: #292525;
+  color: white;
+  padding: 13px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+section {
+  padding: 90px 10%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h3 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.about {
+  font-size: 18px;
+  max-width: 800px;
+  color: #5d5552;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 28px;
+  border-radius: 18px;
+  border: 1px solid #eee5e1;
+}
+
+.card h4 {
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+
+.card p {
+  color: #6d6460;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  background: #eadbd6;
+  padding: 10px 17px;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  padding: 50px 20px;
+  background: #292525;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+@media(max-width:600px) {
+  nav a {
+    display: none;
+  }
+
+  section {
+    padding: 65px 8%;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">Stejsi Meco</div>
+
+  <div>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="small">Psychology • HR • Talent Acquisition</div>
+
+  <h1>Stejsi<br>Meco</h1>
+
+  <h2>
+    Psychology graduate interested in Human Resources,
+    Talent Acquisition and Organizational Psychology.
+  </h2>
+
+  <a class="button" href="#about">Explore my portfolio</a>
+</section>
+
+<section id="about">
+  <div class="small">01 — About me</div>
+  <h3>About Me</h3>
+
+  <p class="about">
+    I am a Psychology graduate with a strong interest in Human Resources,
+    Talent Acquisition and people development. I enjoy working with people,
+    communicating effectively and creating positive professional experiences.
+    My academic background in psychology, combined with my customer service
+    and internship experience, has helped me develop strong communication,
+    teamwork and problem-solving skills.
+  </p>
+</section>
+
+<section id="experience">
+  <div class="small">02 — Experience</div>
+  <h3>Experience</h3>
+
+  <div class="cards">
+
+    <div class="card">
+      <h4>One Albania</h4>
+      <p><strong>Internship</strong></p>
+      <p>Telecommunications internship with practical exposure to professional teamwork and company operations.</p>
+    </div>
+
+    <div class="card">
+      <h4>Concentrix</h4>
+      <p><strong>Customer Support Agent</strong></p>
+      <p>Airbnb Support campaign. Developed communication, problem-solving and customer service skills.</p>
+    </div>
+
+    <div class="card">
+      <h4>Konecta</h4>
+      <p><strong>Customer Service Agent</strong></p>
+      <p>Delivery campaign with focus on communication, service and problem resolution.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="education">
+  <div class="small">03 — Education</div>
+  <h3>Education</h3>
+
+  <div class="cards">
+
+    <div class="card">
+      <h4>European University of Tirana</h4>
+      <p><strong>Bachelor in Psychology</strong></p>
+      <p>2023 – 2026</p>
+    </div>
+
+    <div class="card">
+      <h4>Andon Zako Çajupi</h4>
+      <p>High School</p>
+      <p>2019 – 2023</p>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="small">04 — Academic interests</div>
+  <h3>Projects & Interests</h3>
+
+  <div class="cards">
+
+    <div class="card">
+      <h4>Social Psychology</h4>
+      <p>Interest in human behaviour, interpersonal relationships and social interaction.</p>
+    </div>
+
+    <div class="card">
+      <h4>Organizational Psychology</h4>
+      <p>Interested in workplace behaviour, employee wellbeing and organizational development.</p>
+    </div>
+
+    <div class="card">
+      <h4>Human Resources</h4>
+      <p>Particular interest in Talent Acquisition, recruitment and people management.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="skills">
+  <div class="small">05 — Skills</div>
+  <h3>Skills & Languages</h3>
+
+  <div class="skills">
+    <span class="skill">Communication</span>
+    <span class="skill">Teamwork</span>
+    <span class="skill">Problem Solving</span>
+    <span class="skill">Customer Service</span>
+    <span class="skill">Psychology</span>
+    <span class="skill">Human Resources</span>
+    <span class="skill">Talent Acquisition</span>
+    <span class="skill">English — C1</span>
+    <span class="skill">Italian — B2</span>
+    <span class="skill">German — B1</span>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="small">06 — Contact</div>
+  <h3>Let's connect.</h3>
+
+  <p class="about">
+    I am open to opportunities in Psychology, Human Resources,
+    Talent Acquisition, internships and professional development.
+  </p>
+
+  <a class="button" href="mailto:your-email@example.com">
+    Contact me
+  </a>
+</section>
+
+<footer>
+  <p>© 2026 Stejsi Meco</p>
+  <p>Psychology • Human Resources • Talent Acquisition</p>
+</footer>
+
+</body>
+</html>
